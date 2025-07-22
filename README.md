@@ -1,4 +1,4 @@
-# GPT-4o Text-to-Speech (TTS) Tool
+# GPT-TTS - GPT-4o Text-to-Speech (TTS) Tool
 
 This Python script converts long text files into high-quality MP3 audio using OpenAI's `gpt-4o-mini-tts` model. It automatically splits the input text based on token limits, synthesizes audio for each segment, and merges the segments into one seamless output file.
 
@@ -14,6 +14,13 @@ This Python script converts long text files into high-quality MP3 audio using Op
 - Python 3.8+
 - ffmpeg (must be installed and accessible via command line)
 - OpenAI API key
+
+Create a virtual environment and activate it:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 Install dependencies:
 
